@@ -6,4 +6,4 @@ const routePrevisao = require("./routes/previsao");
 app.use(cors());
 app.use(routePrevisao);
 
-app.listen("3000");
+app.listen(process.env.PORT);
