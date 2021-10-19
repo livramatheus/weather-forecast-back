@@ -2,7 +2,7 @@ var express = require("express");
 var routes = express();
 var controller = require("../controllers/previsao");
 
-routes.get("/previsao", (req, res) => {
+routes.get("/forecast", (req, res) => {
   let { lat, long } = req.query;
 
   const prev = controller.buscaDadosPrevisao(lat, long);

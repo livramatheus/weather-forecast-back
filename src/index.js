@@ -1,9 +1,9 @@
 const express = require("express");
 const cors = require("cors");
 const app = express();
-const routePrevisao = require("./routes/previsao");
+const routeForecast = require("./routes/forecast");
 
 app.use(cors());
-app.use(routePrevisao);
+app.use(routeForecast);
 
 app.listen(process.env.PORT);
