@@ -186,7 +186,7 @@
 	<li><a href="#how-to-set-up-br">Como configurar</a></li>
 	<li><a href="#inspirations-br">Inspirações</a></li>
 	<li><a href="#live-demo-br">Live demo</a></li>
-	<li><a href="#autor-br">Autor</a>li>
+	<li><a href="#autor-br">Autor</a></li>
 </ul>
 <!--te-->
 
